@@ -30,9 +30,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               :  "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "shubhamrasal-me" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -44,11 +44,11 @@ comments:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   staticman:
-    branch               : "master" # "master"
-    endpoint             : "https://shubhamrasal-staticman2.herokuapp.com/v2/entry/shubhamrasal/blog/master/comments" # "https://{your Staticman v3 API}/v3/entry/github/"
+    branch               : #"master" # "master"
+    endpoint             : #"https://shubhamrasal-staticman2.herokuapp.com/v2/entry/shubhamrasal/blog/master/comments" # "https://{your Staticman v3 API}/v3/entry/github/"
 reCaptcha:
-  siteKey                : "6LeupUsaAAAAAFXKZew-IiB4Tg5cj8iophVQptrk"
-  secret                 : "GD2J44y14uU15aGsz2HjPXCAaKE8bfBgN6dACQf1jjEwPB++7MKbtKQOm4unOoYCAuLpnV3eKfnVMaVfEWGY0zrk3hSUHtFTwbwJxCxUvK9O2xcTjMmrX+5/39GE+/25OnMhkcekEMN6XXW2IY/vY0RXFlz6dnUrmwVkHz/56+FK3WDC6vqTVlFt4+j/NoymO2I7hSoaOBZ9lMiqH68NuC36PbYCHU8EEXDGPs7C7IQZrnis50S971LNInqd3nKz0SwIhfgguGqLq3DhC52U5yMAuGeLcMjmR4TvAf16ZoSlrMUAvVzywtakvn8NLf/ufDHF8b4df6A5VVoEPJsMQQbmcGl0/hqFe2FuALFo/T75vxQnazjUnarsG0DhN0ZdqXgRFMbCjE8uIwIg4hrFZsgKeffsNNnpIFyTreQ815KaBpXyjM2DKxkXwzaUWxewrgHP08oroudMTUhkgvV1zqEM/BwhCSbEf+Y200PaBZHJIB/JKRMnjlXFIRuWt9uhpXTe0EOm3Kntk0WjmMcLqv+JLuNkJcmc77nkKlZn107tu2A5OBXTIJM0rAya5G9zoiTz8XO0fXYKCui7lzUuvcKXeO7uaCxfiGEfmHJbz2l4nmCXdfnTQiy01aKdrt2rqI5e+Yqpbvu08DZQuf1Pj+zME2xampw1SyxhyJSfn4s="
+  siteKey                : #"6LeupUsaAAAAAFXKZew-IiB4Tg5cj8iophVQptrk"
+  secret                 : #"GD2J44y14uU15aGsz2HjPXCAaKE8bfBgN6dACQf1jjEwPB++7MKbtKQOm4unOoYCAuLpnV3eKfnVMaVfEWGY0zrk3hSUHtFTwbwJxCxUvK9O2xcTjMmrX+5/39GE+/25OnMhkcekEMN6XXW2IY/vY0RXFlz6dnUrmwVkHz/56+FK3WDC6vqTVlFt4+j/NoymO2I7hSoaOBZ9lMiqH68NuC36PbYCHU8EEXDGPs7C7IQZrnis50S971LNInqd3nKz0SwIhfgguGqLq3DhC52U5yMAuGeLcMjmR4TvAf16ZoSlrMUAvVzywtakvn8NLf/ufDHF8b4df6A5VVoEPJsMQQbmcGl0/hqFe2FuALFo/T75vxQnazjUnarsG0DhN0ZdqXgRFMbCjE8uIwIg4hrFZsgKeffsNNnpIFyTreQ815KaBpXyjM2DKxkXwzaUWxewrgHP08oroudMTUhkgvV1zqEM/BwhCSbEf+Y200PaBZHJIB/JKRMnjlXFIRuWt9uhpXTe0EOm3Kntk0WjmMcLqv+JLuNkJcmc77nkKlZn107tu2A5OBXTIJM0rAya5G9zoiTz8XO0fXYKCui7lzUuvcKXeO7uaCxfiGEfmHJbz2l4nmCXdfnTQiy01aKdrt2rqI5e+Yqpbvu08DZQuf1Pj+zME2xampw1SyxhyJSfn4s="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
@@ -70,31 +70,37 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "ShubhamRasal11"
 facebook:
-  username               :
+  username               : "shubham.rasal.545"
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/apple-touch-icon.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+  links:
+   -  "https://linkedin.com/in/shubham-rasal/"
+   -  "https://github.com/shubhamrasal"
+   -  "https://twitter.com/ShubhamRasal11"
+   -  "https://www.facebook.com/shubham.rasal.545/"
+
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-F7JD4QPJQV"
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
   name             : "Shubham Rasal"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/shubhamrasal-avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**DevOps Engineer**"
   location         : "Pune, India"
   email            :
@@ -130,7 +136,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/shubhamrasal"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -140,7 +146,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/shubham-rasal/"
 
 # Reading Files
 include:
@@ -282,3 +290,10 @@ defaults:
       share: true
       related: true
       show_date: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true

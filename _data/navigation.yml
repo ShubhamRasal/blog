@@ -1,12 +1,22 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: /
+    description : "Home"
+
+  - title: "About"
+    url: /about
+    description : "Learn about me..."
+
+  - title: "Portfolio"
+    url: /portfolio
+    description : "See my projects"
+
+
+  - title: "Topics"
+    url: /categories
+    description : "See topics"
+
+  - title: "Resume"
+    url: /assets/doc/ShubhamRasal.pdf
+    description : "Get PDF of resume"

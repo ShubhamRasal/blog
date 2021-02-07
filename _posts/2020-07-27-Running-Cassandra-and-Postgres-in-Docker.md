@@ -8,12 +8,14 @@ tags:
   - Docker
   - Cassandra
   - PostgreSQL
+  - AWS
 date: July 27, 2020
-categories: classic hollywood
+categories: AWS
 header:
   teaser: /assets/images/thumbnails/joel-filipe-thumb-400.jpg
 permalink: /:categories/:title/
 excerpt: "How to set up the environment for Udacity Data Engineering Nanodegree on your local machine"
+comments: true
 ---
 
 Today I started thee Udacity [Data Engineering Nanodegree](https://www.udacity.com/course/data-engineer-nanodegree--nd027) and wanted to follow along the demo projects in Lesson 1 on my local machine. (However, this is optional as Udacity provides the environment in their workspace). 
