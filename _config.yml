@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : "Journey of homosapien to technical-sapien" # site tagline that appears below site title in masthead
 name                     : "Shubham Rasal"
 description              : "Blogging about my Journey of DevOps enginner and notes for my reference that may help you..."
-url                      : "https://shubhamrasal.me" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : #"https://shubhamrasal.me" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
 repository               : "ShubhamRasal/blog" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/teaser.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
