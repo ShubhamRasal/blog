@@ -1,5 +1,5 @@
 ---
-title: "Create a network Topology Setup in such a way so that System A can ping to two Systems System B and System C but both these systems should not be pinging each other without using any security rule e.g firewall etc."
+title: "Create network setup using subnetting."
 toc: true
 toc_label: "Content"
 tags:
@@ -11,9 +11,9 @@ categories: Linux
 header:
   image: /assets/images/thumbnails/hadoop-lvm.png
   overlay_image: /assets/images/thumbnails/linux.png
-  #teaser: "/assets/images/arth-task-13/arth-task13-net.png"
+  teaser: "/assets/images/arth-task-14//b553c63c2b2348158a3f6ee2788cd309.png"
 permalink: /:categories/:title/
-#excerpt: "Create a network Topology Setup in such a way so that System A can ping to two Systems System B and System C but both these systems should not be pinging each other without using any security rule e.g firewall etc."
+excerpt: "Create a network Topology Setup in such a way so that System A can ping to two Systems System B and System C but both these systems should not be pinging each other without using any security rule e.g firewall etc."
 comments: true
 ---
 Linux Networking
