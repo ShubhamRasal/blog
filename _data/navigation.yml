@@ -4,13 +4,13 @@ main:
     url: /
     description : "Home"
 
-  - title: "About"
-    url: /about
-    description : "Learn about me..."
+  # - title: "About"
+  #   url: /about
+  #   description : "Learn about me..."
 
-  - title: "Portfolio"
-    url: /portfolio
-    description : "See my projects"
+  # - title: "Portfolio"
+  #   url: /portfolio
+  #   description : "See my projects"
 
 
   - title: "Topics"

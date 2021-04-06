@@ -75,7 +75,7 @@ document_root: /var/www/html/
 Now we have to write a playbook that will install a webserver and read variables dynamically according to distribution type.
 
 Let's first make sure, we are using selecting proper files using ansible facts. so for that, we will use debug module to create a final string.
-
+{% raw %}
 ```yml
 - name: "Install webserver"
   hosts: webserver
@@ -84,7 +84,7 @@ Let's first make sure, we are using selecting proper files using ansible facts. 
     debug:
       msg: "{{ ansible_distribution }}-{{ ansible_distribution_major_version }}.yml"
 ```
-
+{% endraw %}
 Run this playbook, `$ ansible-playbook main.yml`
 
 ![b6140ceaff53a08534560ec2baa8267b.png]({{ site.url }}{{ site.baseurl }}/assets/images/arth-task-14.3/35ab2a742e8b46c49524db661cd6a7b7.png)
