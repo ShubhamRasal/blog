@@ -28,6 +28,7 @@ let's plan out the things first,
 - Create Role which will configure Kubernetes slave nodes
 
 * * *
+You can find all the code used in this blog [Here](https://github.com/ShubhamRasal/ansible-roles-kubernetes-cluster)
 
 Create ansible setup
 
@@ -389,6 +390,8 @@ Run the playbook, This playbook will configure master and slave nodes on aws clo
 Finally, you can check at the end that kubernetes cluster has been configured successfully.
 
 ![7c38f935c8429bde2c6900c7f19082f7.png]({{ site.url }}{{ site.baseurl }}/assets/images/ansible-k8s-cluster/9446bb8e6ea541a9b8657a900121e92e.png)
+
+You can find all the code used in this blog [Here](https://github.com/ShubhamRasal/ansible-roles-kubernetes-cluster)
 
 If you have any thoughts on this blog, please share it in comment section below.
 # Thank you…
