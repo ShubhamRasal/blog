@@ -9,8 +9,8 @@ tags:
 date: April 04, 2021
 categories: Ansible
 header:
-  image: assets/images/banner_without_name.png
-  overlay_image: assets/images/banner_without_name.png
+  # image: assets/images/banner_without_name.png
+  # overlay_image: assets/images/banner_without_name.png
   teaser: assets/images/ansible-k8s-cluster/header.png
 permalink: /:categories/:title/
 excerpt: "Create ansible roles to provision aws ec2 instance, configure kubernetes master and kubernetes slaves."
