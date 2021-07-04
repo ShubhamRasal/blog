@@ -149,4 +149,4 @@ We have successfully made our playbook variables dynamically according to distri
 *About the writer:*
 *Shubham** loves technology, challenges, continuous learning, and reinventing himself. He loves to share his knowledge and solve daily problems using automation.*
 
-*Visit him : shubhamrasal.me/blog to know more.*
+*Visit him : shubhamrasal.tech to know more.*
